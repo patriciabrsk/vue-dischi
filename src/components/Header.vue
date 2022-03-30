@@ -1,5 +1,11 @@
 <template>
-  <div class="header"></div>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="" alt="Spotify logo" width="30" height="24" />
+      </a>
+    </div>
+  </nav>
 </template>
 
 <script>
@@ -9,4 +15,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+nav {
+  background-color: #2d3a46;
+}
+</style>

@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Header />
+    <RecordsList />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import RecordsList from "./components/RecordsList.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    RecordsList,
   },
 };
 </script>
@@ -18,9 +21,6 @@ export default {
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  background-color: #1e2d3b;
 }
 </style>
