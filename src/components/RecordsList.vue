@@ -1,5 +1,6 @@
 <template>
-  <div class="container justify-content-center m-5">
+  <div class="container justify-content-center pb-5">
+    <!-- <Loading v-if="recordsList <= 0" /> -->
     <div class="row row-cols-5 g-4 w-80">
       <RecordCard
         v-for="(record, index) in recordsList"
@@ -33,3 +34,7 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@import "../assets/scss/style.scss";
+</style>

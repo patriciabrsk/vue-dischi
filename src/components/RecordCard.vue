@@ -23,11 +23,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div.card {
+@import "../assets/scss/style.scss";
+.card,
+.card-body {
   background-color: #2d3a46;
   h6,
-  p {
+  p,
+  .card-title {
     color: #807b6f;
+    background-color: #2d3a46;
   }
 }
 </style>

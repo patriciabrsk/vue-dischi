@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <Header />
+    <Loading />
     <RecordsList />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+// import Loading from "./components/Loading.vue";
 import RecordsList from "./components/RecordsList.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    // Loading,
     RecordsList,
   },
 };
