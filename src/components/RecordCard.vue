@@ -1,5 +1,5 @@
 <template>
-  <div id="card">
+  <div id="card h-100 m-3">
     <div class="col card h-100">
       <img :src="record.poster" class="m-3" :alt="record.title" />
       <div class="card-body mb-0 text-center">
@@ -30,7 +30,7 @@ export default {
   h6,
   p,
   .card-title {
-    color: #807b6f;
+    color: #7b7876;
     background-color: #2d3a46;
   }
 }

@@ -23,6 +23,7 @@ export default {
     return {
       recordsList: [],
     };
+    // props: {},
   },
   created() {
     setTimeout(() => {
@@ -33,14 +34,18 @@ export default {
         });
     }, 4000);
   },
+
+  //   computed: {
+  //     filteredRecordsList() {
+  //       return this.recordsList.filter((record) => {
+  //       });
+  //     },
+  //   },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/style.scss";
 div.records-container {
-  div.row {
-    width: 70vw;
-  }
 }
 </style>
