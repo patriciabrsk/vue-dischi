@@ -2,7 +2,7 @@
   <div id="card">
     <div class="col card h-100">
       <img :src="record.poster" class="m-3" :alt="record.title" />
-      <div class="card-body">
+      <div class="card-body mb-0 text-center">
         <h5 class="card-title text-white text-uppercase fw-bold">
           {{ record.title }}
         </h5>

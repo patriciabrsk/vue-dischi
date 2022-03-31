@@ -1,7 +1,7 @@
 <template>
-  <div class="container justify-content-center pb-5">
+  <div class="container d-flex justify-content-center text-center pb-5">
     <!-- <Loading v-if="recordsList <= 0" /> -->
-    <div class="row row-cols-5 g-4 w-80">
+    <div class="row row-cols-5 g-4">
       <RecordCard
         v-for="(record, index) in recordsList"
         :key="index"
@@ -37,4 +37,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/style.scss";
+
+div.row {
+  width: 70vw;
+}
 </style>

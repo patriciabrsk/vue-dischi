@@ -1,15 +1,12 @@
 <template>
-  <nav class="navbar mb-5">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img
-          src="https://www.freepnglogos.com/images/spotify-logo-png-7053.html"
-          alt="Spotify logo"
-          width="30"
-          height="24"
-        />
-      </a>
-    </div>
+  <nav class="navbar mb-5 container-fluid">
+    <a href="#">
+      <img
+        src="../assets/spotify-logo-png-7053.png"
+        alt="Spotify logo"
+        class="img-fluid"
+      />
+    </a>
   </nav>
 </template>
 
@@ -22,8 +19,11 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/scss/style.scss";
-nav,
-.container {
+nav {
   background-color: #2d3a46;
+
+  img {
+    width: 40px;
+  }
 }
 </style>
