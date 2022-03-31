@@ -1,16 +1,12 @@
 <template>
-  <div
-    class="records-container d-flex flex-column align-items-center justify-content-center"
-  >
+  <div class="container d-flex justify-content-center h-100 py-5">
     <Loading v-if="recordsList <= 0" />
-    <div class="container d-flex justify-content-center text-center h-100 pb-5">
-      <div class="row row-cols-5 g-4 h-100">
-        <RecordCard
-          v-for="(record, index) in recordsList"
-          :key="index"
-          :record="record"
-        />
-      </div>
+    <div class="row row-cols-5 g-4 mx-5">
+      <RecordCard
+        v-for="(record, index) in recordsList"
+        :key="index"
+        :record="record"
+      />
     </div>
   </div>
 </template>
@@ -42,8 +38,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/style.scss";
-
-div.row {
-  width: 70vw;
+div.records-container {
+  div.row {
+    width: 70vw;
+  }
 }
 </style>

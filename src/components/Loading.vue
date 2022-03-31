@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex justify-content-center align-items-center m-5">
+  <div class="container d-flex justify-content-center mt-5">
     <div class="loading m-5"></div>
   </div>
 </template>
